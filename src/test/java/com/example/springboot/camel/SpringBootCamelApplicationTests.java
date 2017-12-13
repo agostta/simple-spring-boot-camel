@@ -1,4 +1,4 @@
-package com.example.springboot.camel.springbootcamel;
+package com.example.springboot.camel;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

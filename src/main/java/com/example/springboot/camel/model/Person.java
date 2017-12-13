@@ -1,7 +1,11 @@
 package com.example.springboot.camel.model;
 
-public class Person {
+import java.io.Serializable;
 
+public class Person implements Serializable {
+
+	private static final long serialVersionUID = -8318612175218467352L;
+	
 	private int id;
 	private String name, country;
 
